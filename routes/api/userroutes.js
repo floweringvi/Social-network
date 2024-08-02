@@ -1,3 +1,23 @@
+const router = require('express').Router();
+const {
+    getUsers,
+    getSingleUser,
+    createUser,
+    updateUser,
+    deleteUser
+
+} = require('../../controllers/usercontroller.js');
+
+router.route('/').get(getUsers).post(createUser);
+
+router
+.route('/:userId')
+.get(getSingleUser)
+.put(updateUser)
+.delete(deleteUser);
+
+module.exports = router;
+
 // api/users
 //  get all
 //  get user by single _id + friend and thought data
