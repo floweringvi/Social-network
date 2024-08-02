@@ -24,7 +24,9 @@ reactionSchema = new Schema(
             getters: true,
         }
     }
-)
+);
+
+module.exports = reactionSchema;
 //reaction
 //just schema
 
