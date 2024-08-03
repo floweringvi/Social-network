@@ -22,7 +22,7 @@ Fetch or Clone the repo to your own computer and test the routes on Insomnia.
 
   ##Usage 
 Keep track of your friends, their musing and who thinks what.
-
+https://watch.screencastify.com/v/KJiWZOomgdEkitsYZMZ7 
  
 
   ##Contributors
